@@ -1,0 +1,110 @@
+2024-12-14 14:56:17 [main] INFO  Socket.Main - Program started.
+2024-12-14 14:56:23 [main] INFO  Socket.Main - Server address is valid: 127.0.0.1
+2024-12-14 15:24:01 [main] INFO  Socket.Main - Program started.
+2024-12-14 15:24:09 [main] INFO  Socket.Main - Server address is valid: 127.0.0.1
+2024-12-14 15:24:14 [main] INFO  Socket.Main - Server port is valid: 4020
+2024-12-14 15:24:18 [main] INFO  Socket.Main - Packet size is valid: 65507
+2024-12-14 15:24:20 [main] INFO  Socket.Main - Total packet size is valid: 655070 bytes
+2024-12-14 15:24:22 [main] INFO  Socket.Main - Interval between packets: 30 ms
+2024-12-14 15:24:22 [Thread-0] INFO  Socket.TrafficGenerator - Traffic generator started. Sending packets to 127.0.0.1:4020
+2024-12-14 15:24:22 [Thread-1] INFO  Socket.TrafficReceiver - Traffic receiver started on port 4020
+2024-12-14 15:24:23 [Thread-0] INFO  Socket.TrafficGenerator - Traffic generator finished sending 10 packets.
+2024-12-14 19:23:58 [main] INFO  Socket.Main - Program started.
+2024-12-14 19:24:07 [main] INFO  Socket.Main - Server address is valid: 127.0.0.1
+2024-12-14 19:24:11 [main] INFO  Socket.Main - Server port is valid: 4020
+2024-12-14 19:24:24 [main] INFO  Socket.Main - Packet size is valid: 65507
+2024-12-14 19:24:26 [main] INFO  Socket.Main - Total packet size is valid: 655070 bytes
+2024-12-14 19:24:28 [main] INFO  Socket.Main - Interval between packets: 10 ms
+2024-12-14 19:24:28 [Thread-0] INFO  Socket.TrafficGenerator - Traffic generator started. Sending packets to 127.0.0.1:4020
+2024-12-14 19:24:28 [Thread-1] INFO  Socket.TrafficReceiver - Traffic receiver started on port 4020
+2024-12-14 19:24:28 [Thread-0] INFO  Socket.TrafficGenerator - Traffic generator finished sending 10 packets.
+2024-12-15 16:36:07 [main] INFO  Socket.Main - Application started.
+2024-12-15 16:36:12 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-15 16:36:12 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-15 16:36:20 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-15 16:36:26 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-15 16:36:28 [main] INFO  Socket.Main - Number of packets set to: 10
+2024-12-15 16:36:32 [main] INFO  Socket.Main - Interval set to: 100 ms
+2024-12-15 16:36:32 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-15 16:36:32 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-15 16:36:33 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-15 16:36:33 [main] INFO  Socket.Main - Application finished.
+2024-12-15 16:39:44 [main] INFO  Socket.Main - Application started.
+2024-12-15 16:39:47 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-15 16:39:47 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-15 16:39:50 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-15 16:39:53 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-15 16:39:56 [main] INFO  Socket.Main - Number of packets set to: 10
+2024-12-15 16:39:58 [main] INFO  Socket.Main - Interval set to: 100 ms
+2024-12-15 16:39:58 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-15 16:39:58 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-15 16:39:59 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-15 16:39:59 [main] INFO  Socket.Main - Application finished.
+2024-12-15 20:53:00 [main] INFO  Socket.Main - Application started.
+2024-12-15 22:55:27 [main] INFO  Socket.Main - Application started.
+2024-12-15 22:55:31 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-15 22:55:31 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-15 22:55:34 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-15 22:55:39 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-15 22:55:41 [main] INFO  Socket.Main - Number of packets set to: 100
+2024-12-15 22:55:52 [main] INFO  Socket.Main - Interval set to: 100 ms
+2024-12-15 22:55:52 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-15 22:55:52 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-15 22:56:03 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-15 22:56:03 [main] INFO  Socket.Main - Application finished.
+2024-12-15 22:57:18 [main] INFO  Socket.Main - Application started.
+2024-12-15 22:57:36 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-15 22:57:36 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-15 22:57:40 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-15 22:57:44 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-15 22:57:50 [main] INFO  Socket.Main - Number of packets set to: 100
+2024-12-15 22:57:52 [main] INFO  Socket.Main - Interval set to: 100 ms
+2024-12-15 22:57:52 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-15 22:57:52 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-15 22:58:02 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-15 22:58:02 [main] INFO  Socket.Main - Application finished.
+2024-12-15 22:59:01 [main] INFO  Socket.Main - Application started.
+2024-12-15 22:59:09 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-15 22:59:09 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-15 22:59:12 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-15 22:59:19 [main] INFO  Socket.Main - Packet size set to: 50000 bytes
+2024-12-15 22:59:22 [main] INFO  Socket.Main - Number of packets set to: 100
+2024-12-15 22:59:27 [main] INFO  Socket.Main - Interval set to: 10 ms
+2024-12-15 22:59:27 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-15 22:59:27 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-15 22:59:29 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-15 22:59:29 [main] INFO  Socket.Main - Application finished.
+2024-12-15 23:59:31 [main] INFO  Socket.Main - Application started.
+2024-12-15 23:59:36 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-15 23:59:36 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-15 23:59:39 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-15 23:59:47 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-15 23:59:49 [main] INFO  Socket.Main - Number of packets set to: 10
+2024-12-15 23:59:50 [main] INFO  Socket.Main - Interval set to: 10 ms
+2024-12-15 23:59:50 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-15 23:59:50 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-15 23:59:51 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-15 23:59:51 [main] INFO  Socket.Main - Application finished.
+2024-12-16 00:22:41 [main] INFO  Socket.Main - Application started.
+2024-12-16 00:26:06 [main] INFO  Socket.Main - Application started.
+2024-12-16 00:26:37 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-16 00:26:37 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-16 00:26:43 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-16 00:26:48 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-16 00:26:54 [main] INFO  Socket.Main - Number of packets set to: 300
+2024-12-16 00:27:05 [main] INFO  Socket.Main - Interval set to: 10 ms
+2024-12-16 00:27:05 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-16 00:27:05 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-16 00:27:09 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-16 00:27:09 [main] INFO  Socket.Main - Application finished.
+2024-12-16 00:27:54 [main] INFO  Socket.Main - Application started.
+2024-12-16 00:28:05 [main] INFO  Socket.Main - Mode selected: 2
+2024-12-16 00:28:05 [main] INFO  Socket.Main - Loopback mode selected: packets will be sent to 127.0.0.1.
+2024-12-16 00:28:08 [main] INFO  Socket.Main - Server port set to: 5000
+2024-12-16 00:28:12 [main] INFO  Socket.Main - Packet size set to: 65507 bytes
+2024-12-16 00:28:18 [main] INFO  Socket.Main - Number of packets set to: 300
+2024-12-16 00:28:22 [main] INFO  Socket.Main - Interval set to: 10 ms
+2024-12-16 00:28:22 [Thread-0] INFO  Socket.Main - Starting TrafficReceiver on localhost...
+2024-12-16 00:28:22 [Thread-1] INFO  Socket.Main - Starting TrafficGenerator...
+2024-12-16 00:28:27 [main] INFO  Socket.Main - TrafficGenerator has finished execution.
+2024-12-16 00:28:27 [main] INFO  Socket.Main - Application finished.

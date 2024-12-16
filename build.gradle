@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+}
+
+shadowJar {
+    archiveBaseName.set('MyApp')
+    archiveVersion.set('1.0')
+    manifest {
+        attributes 'Main-Class': 'Socket.Main'
+    }
+}
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'Socket.Main'
+        )
+    }
+}
+task fatJar(type: Jar) {
+    archiveBaseName = 'MyApp'
+    archiveClassifier = 'all'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with jar
+    manifest {
+        attributes 'Main-Class': 'Socket.Main'
+    }
+}
+
+
+
+
